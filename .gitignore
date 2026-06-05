@@ -1,2 +1,20 @@
 venv
 /Data
+# MLflow tracking data and artifacts
+mlruns/
+mlartifact/
+outputs/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environments
+venv/
+.venv/
+env/
+
+# OS specific files
+.DS_Store
